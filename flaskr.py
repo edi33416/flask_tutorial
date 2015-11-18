@@ -92,6 +92,8 @@ def logout():
     flash('You were successfully logged out')
     return redirect(url_for('show_entries'))
 
+# end of view functions
+
 if __name__ == '__main__':
     init_db()
     app.run()
